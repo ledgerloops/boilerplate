@@ -1,5 +1,5 @@
 {
-  "name": "@ledgerloops/boilerplate",
+  "name": "ledgerloops-boilerplate",
   "version": "2.0.0",
   "description": "Basic build environment for reference",
   "files": [

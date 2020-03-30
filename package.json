@@ -2,14 +2,12 @@
   "name": "ledgerloops-boilerplate",
   "version": "2.4.0",
   "description": "Basic build environment for reference",
-  "files": [
-    "src",
-    "lib"
-  ],
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
-    "build": "babel src -d lib --source-maps --extensions \".ts\"",
+    "build": "npm run build-lib && npm run build-types",
+    "build-lib": "babel src -d lib --source-maps --extensions \".ts\"",
+    "build-types": "tsc",
     "coverage": "jest --collect-coverage",
     "dev": "ts-node-dev src/examples/basic",
     "jest": "jest",

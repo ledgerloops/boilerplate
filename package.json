@@ -1,6 +1,6 @@
 {
   "name": "ledgerloops-boilerplate",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Basic build environment for reference",
   "files": [
     "src",
